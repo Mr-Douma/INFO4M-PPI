@@ -1,1 +1,9 @@
-# INFO4M-PPI
+#Conexão com banco de Dados PHP e MySQL.#
+##O Que eu entendi:##
+Entendi depois de corrigir meus erros como fazer a conexão com o banco de dados usando PHP.
+##Explicando cada arquivo: ##
+**conexao.php:** Faz a connexão com o banco de dados.
+**index.php:** Cria a estrutura do site além de fazer a verificação do login para saber se a conta existe e se as informações estão certas.
+**logout.php:** Encerra a sessão da conta.
+**painel.php:** Após iniciar a sessão, o usuário é mandado para essa página e pode encerrar a sessão quando quiser.
+**protect:** Verifica se o usuário iniciou a sessão antes de acessar o painel.php, se sim, o usuário é mandado para a página, senão, o usuário é redirecionado à página index.php para logar.
